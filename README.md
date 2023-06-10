@@ -88,7 +88,7 @@ This is a chat-room application based on server-client model, where multiple cli
 11. Start the thread.
 12. When the server runs, start receiving connections.
 ---
-<br>
+<br> 
 
 ## The client code:
 1. First, we import the socket package to handle socket connections.
