@@ -1,5 +1,5 @@
 import socket
-import threading  # to handle multi threading in python so clients can work in parallel
+import threading  # to handle multi-threading in Python so clients can work in parallel
 
 host = "127.0.0.1"  # our local host
 port = 5050  # any unused port
@@ -72,4 +72,5 @@ receive_thread = threading.Thread(target=receive)  # a thread for receiving new 
 receive_thread.start()
 send_thread = threading.Thread(target=send)  # a thread for sending new messages
 send_thread.start()
+
 
