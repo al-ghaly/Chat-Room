@@ -1,5 +1,5 @@
 import socket
-import threading  # to handle multi threading in python so clients can work in parallel
+import threading  # to handle multi-threading in Python so clients can work in parallel
 
 # CONSTANTS:
 host = "127.0.0.1"  # Local Host
